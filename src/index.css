@@ -7,6 +7,129 @@ html {
 }
 
 body {
+  background-color: black;
   margin: 0;
   min-height: 100%;
+}
+
+.home-link {
+  color: white;
+}
+
+.show-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome-back {
+  padding: 1rem;
+  margin-top: -3rem;
+}
+
+.welcome {
+  text-align: center;
+  color: #A33327
+}
+
+.here-are-shows {
+  text-align: center;
+  color: #917164;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.feature-box {
+  background-color: #AD8175;
+  width: fit-content;
+  border: black;
+  border-style: solid;
+  text-align: center;
+  padding: 1rem;
+}
+
+.feature-box h3 {
+  text-align: center;
+}
+
+.other-shows {
+  text-align: center;
+}
+
+.one-show {
+  background-color: #689875;
+  width: 20rem;
+  border: black;
+  border-style: solid;
+  text-align: center;
+  padding: 1rem;
+}
+
+.show-list>article {
+  margin: 1rem
+}
+
+.center-feature {
+  display: flex;
+  justify-content: center;
+}
+
+.detail-header {
+  color: #917164;
+  text-align: center;
+}
+
+.actors {
+  list-style: none;
+  text-align: left;
+}
+
+.detail-box {
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.left-box {
+  border-style: solid;
+  border-color: black;
+  width: 40%;
+}
+
+.right-box {
+  border-style: solid;
+  border-color: black;
+  align-self: center;
+  padding: 1rem;
+  width: 40%;
+}
+
+.plot {
+  padding: 1rem;
+}
+
+.popularity {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.vote {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.cast {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
